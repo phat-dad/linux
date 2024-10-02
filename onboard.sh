@@ -67,7 +67,7 @@ fi
 
 # Set sysinfo 
 echo "Installing SysInfo"
-sudo curl -o /usr/bin/sysinfo https://iuhcdorepo.blob.core.windows.net/linux/bootstrap/sysinfo.sh
+sudo curl -o /usr/bin/sysinfo https://github.com/phat-dad/linux/blob/main/sysinfo.sh
 sudo chmod +x /usr/bin/sysinfo
 sudo echo "sysinfo" >> /etc/skel/.bash_profile
 
